@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>sistem informasi stok obat-obat</title>
+</head>	
+<body>
+	<a href="link.html"> login</a>
+	<a href="link.html"> call</a>
+	<h2>Selamat datang di stok obat obat</h2>
+	<hr>
+	<p>
+	Selamat datang di sistem informasi stok obat obatan
+	</p>
+	<img src="obat.jpeg" />
+	<p>
+	</body>
+</html>
