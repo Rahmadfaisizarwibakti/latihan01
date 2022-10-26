@@ -9,7 +9,7 @@ header{
 	height: 100vh;
 	position: fixed;
 	width: 100%;
-	background-image: url('background.jpeg');
+	background-image: url('https://www.bing.com/images/search?view=detailV2&ccid=3lU2OBPa&id=70A3E0B483613719707520F344AD3EB4EEF3C633&thid=OIP.3lU2OBPaBEz4hLwaIOLoCwHaFq&mediaurl=https%3a%2f%2fwi.wallpapertip.com%2fwsimgs%2f65-653541_background-warna-hijau-polos-background-gradasi-hijau-png.jpg&exph=380&expw=497&q=Gradasi+Warna+Hijau&simid=608043219300395430&FORM=IRPRST&ck=694173D4D45B358242C79984FDA1E0F4&selectedIndex=2');
 	background-size: cover;
 	background-position: 40% 40%;
 }
