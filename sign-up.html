@@ -4,41 +4,50 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sign up</title>
-	<link rel="stylesheet" type="text/css" href="style/sign-up-style.css">
+	<link rel="stylesheet" type="text/css" href="SignUp.css">
 </head>
 <body>
+	<header>
+		<div class="mainheader">
+			<div class="logo">
+				<img src="Omega.png">
+			</div>
 	
-	<nav>
-		
-			<ul>
-				<li><a href="login.html">LOGIN</a></li>
-				<li><a href="sign-up.html">SIGN UP</a></li>
-				<li><a href="#">ABOUT US</a></li>
-			</ul>
+			<nav>
+				<a href="#">home</a>
+				<a href="Produk.html">Product</a>
+				<a href="About">About</a>
+				<a href="Service">Service</a>
+				<a href="#">Contact</a>
+			</nav>
+			<nav class="menubtn">
+				<a href="sign-up.html">
+				<button>Sign Up</button></a>
+			</nav>
 		</div>
-	</nav>
-	<div class="spacer"></div>
-	<!-- AKHIR DARI BAGIAN NAVIGASI ATAS -->
-	<!-- AKHIR DARI BAGIAN NAVIGASI ATAS -->
-	<!-- AKHIR DARI BAGIAN NAVIGASI ATAS -->
+		</header>
+	<div class="space"></div>
 	<main>
 		<div class="main-logo">
 			<div class="text-logo">
 				<h1></h1>
 			</div>
 		</div>
+		<div class="regis">
 			<h3>Registrasi</h3>
 			<form action="#">
 				<label for="nama">Nama Lengkap :<span>*</span></label>
                 <input type="text" id="nama" name="nama" placeholder="Rahmad fais" required>
 				<label for="username">Username :<span>*</span></label>
                 <input type="text" id="username" name="username" placeholder="username" required>
+				<label for="email">Email :<span>*</span></label>
+                <input type="email" id="email" name="email" placeholder="@gmail.com" required>
                 <label for="password">Password :<span>*</span></label>
                 <input type="password" id="password" name="password" placeholder="********" required>
-                <label for="email">Email :<span>*</span></label>
-                <input type="email" id="email" name="email" placeholder="@gmail.com" required>
+                
                 <div class="container">
                 	<input type="submit" value="Daftar" class="daftar" id="daftar">
                 </div>
-			</form>	
+			</form>
+		<div> 
 	</main>
