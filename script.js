@@ -1,6 +1,10 @@
-const hamburger = document.querySelector('.hamburger');
-const hilang = document.querySelector('.hilang');
+const ham = document.querySelector('.toggle');
+const icons = document.querySelector('i.ham-btn');
+const lists = document.querySelector('.hilang');
+const btn = document.querySelector('.menubtn')
 
-hamburger.addEventListener('click', () => {
-  navLink.classList.toggle('hide');
+ham.addEventListener('click', function () {
+    icons.classList.toggle('fa-xmark');
+    lists.classList.toggle('active');
+    btn.classList.toggle('active');
 });
